@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -28,6 +28,20 @@ nav {
     gap: 20px;
 }
 
+nav a {
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: none; /* Esconder no desktop */
+    cursor: pointer;
+    color: white;
+    font-size: 28px;
+    padding: 10px;
+}
+
 @media (max-width: 768px) {
     nav {
         display: none;
@@ -48,11 +62,7 @@ nav {
     }
 
     .menu-toggle {
-        display: block;
-        cursor: pointer;
-        color: white;
-        font-size: 24px;
-        padding: 5px;
+        display: block; /* Apenas no mobile */
     }
 }
 
