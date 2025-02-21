@@ -23,6 +23,12 @@ header {
     z-index: 1000;
 }
 
+header div {
+    color: white;
+    font-size: 22px;
+    font-weight: 600; /* Semi-bold */
+}
+
 nav {
     display: flex;
     gap: 20px;
@@ -31,7 +37,8 @@ nav {
 nav a {
     color: white !important;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .menu-toggle {
@@ -83,6 +90,7 @@ nav.active {
 
 .hero h1 {
     font-size: 3rem;
+    font-weight: 600; /* Semi-bold */
     animation: fadeIn 2s ease-in-out;
 }
 
